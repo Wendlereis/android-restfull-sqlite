@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.weis.rest_sqlite_app.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/filmes_star_wars"/>
+
+    <ListView
+        android:id="@+id/lstFilmes"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp" />
+
+    <Button
+        android:id="@+id/btnSicronizarSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sincronizar"
+        android:text="Sincronizar" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rest-Sqlite-App</string>
+    <string name="filmes_star_wars">Filmes Star Wars</string>
+</resources>
